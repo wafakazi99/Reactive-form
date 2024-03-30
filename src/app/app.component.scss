@@ -1,0 +1,51 @@
+section {
+    display: flex;
+    justify-content: space-between;
+  
+    .button-row {
+      display: flex;
+      flex: 1;
+  
+      button {
+        flex: 1;
+        margin: 0 5px; 
+    }
+  }
+}
+.container {
+  display: flex;
+  height: 75vh; /* Set container height to 75% of viewport height */
+}
+
+.form-container {
+  flex: 1; /* Make the form container occupy half of the vertical space */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Styles for form fields */
+mat-form-field {
+  width: 90%; /* Adjust width as needed */
+  margin: 5px 0; /* Reduced margin between form fields */
+}
+
+/* Additional styles to reduce left space within the form */
+.mat-form-field-wrapper {
+  padding-left: 10px; /* Adjust padding to reduce left space within the form */
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  width: 120px; /* Adjust width as needed */
+  margin: 10px; /* Adjust margin between buttons */
+  background-color: green; /* Set button background color to green */
+  color: white; /* Set button text color to white */
+}
+
+.custom-button:nth-child(2) {
+  background-color: rgb(18, 92, 229); /* Set background color of the second button to yellow */
+}
